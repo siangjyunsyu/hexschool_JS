@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 作業指定樣式 */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+}
+body{
+  font-family: 'Castoro', serif;
+    line-height: 1.5;
+}
+.container {
+    max-width: 1296px;
+    display: contents;
+}
+header {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+.titleName {
+    font-size: 128px;
+    letter-spacing: 0.12em;
+    margin: 160px 0 0 0;
+    line-height:1.2;
+}
+.titleResume {
+    font-size: 128px;
+    letter-spacing: 0.12em;
+    line-height:1.2;
+    text-align: right;
+}
+.vitoPhoto {
+    max-width: 636px;
+    margin: 0 auto;
+}
+.vitoPhoto img {
+    width: 100%;
+    border: 0;
+}
+.introduce {
+    padding: 50px 0;
+    background-color: #efefef;
+    display: flex;
+    justify-content: flex-end;
+}
+.space{
+    width: 1296px;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+}
+.introduce p {
+    width: 636px;
+    font-size: 32px;
+    margin-right: -35px;
+}
+.resume {
+    max-width: 1296px;
+    margin: auto;
+}
+.resume h2 {
+    color: #ae0000;
+    border-bottom: 3px solid #ae0000;
+    width: 636px;
+    font-size: 40px;
+    margin: 40px 0 20px 0;
+    line-height:1.2;
+}
+.resume p {
+    width: 636px;
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+.resume h5 {
+    width: 636px;
+    font-size: 20px;
+    margin: 20px 0 0 0;
+    color: #949494;
+}
+.info h2 {
+    margin-top: 90px;
+}
+
+.more {
+    width: 636px;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+}
+footer {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 60px 0;
+}
+.icon {
+    width: 64px;
+    margin: 30px;
+}

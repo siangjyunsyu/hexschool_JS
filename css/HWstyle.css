@@ -1,0 +1,25 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-left: 5px solid red;
+    border-bottom: 10px solid red;
+}
+.ol > li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.words {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 32px;
+}
+.colorLink {
+    color: red;
+}
+.ellipsis {
+    text-decoration: line-through;
+}
+.photo {
+    border: 10px solid #777;
+}

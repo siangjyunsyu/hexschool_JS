@@ -1,0 +1,38 @@
+h1 {
+    color: orange;
+    font-size: 60px;
+    border-left: 20px solid blue;
+}
+h1:hover {
+    color: red;
+}
+p {
+    color: blue;
+}
+a {
+    color: palevioletred;
+}
+/* 擬態選擇器 */
+a:hover {
+    color: blueviolet;
+    font-size: 30px;
+}
+a:active {
+    color: brown;
+}
+/* 類別選擇器 */
+.word01 {
+    color: darkblue;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    text-indent: 32px;
+    text-decoration: underline;
+}
+.word02 {
+    color: salmon;
+}
+.pet {
+    border: 20px solid salmon;
+}

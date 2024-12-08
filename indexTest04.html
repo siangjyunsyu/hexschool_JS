@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style04.css" />
+        <title>div 與後代選擇器運用</title>
+    </head>
+    <body>
+        <!-- 後代選擇器 -->
+        <div class="style1">
+            <a href="#">red</a>
+            <a href="#">red</a>
+            <a href="#">red</a>
+            <p class="bold">這是段落</p>
+            <p>這是測試</p>
+        </div>
+        <div class="style2">
+            <h2>標題</h2>
+            <a href="#">blue</a>
+            <a href="#">blue</a>
+            <a href="#">blue</a>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt accusantium vitae ipsam exercitationem itaque officia vel qui cumque, odio doloremque totam ea
+                aliquid nostrum nesciunt quidem reiciendis, earum, repellendus eius.
+            </p>
+        </div>
+        <div class="box">
+            <h1>box model 盒模型</h1>
+            <p>padding、border 會影響div的實際寬高，但 margin 不會</p>
+        </div>
+        <div class="wrap">
+            <div class="header"></div>
+            <div class="content">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, non?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, non?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, non?</p>
+            </div>
+            <div class="footer">
+                <p>地址：新北市三重區重陽路三段129號</p>
+                <br>
+                <p>Tel:(02)2223-44455</p>
+            </div>
+        </div>
+    </body>
+</html>
